@@ -141,7 +141,6 @@ extension PlaySoundViewController: AVAudioPlayerDelegate {
     }
     
     // MARK: UI Functions
-
     func configureUI(_ playState: PlayingState) {
         switch(playState) {
         case .playing:
