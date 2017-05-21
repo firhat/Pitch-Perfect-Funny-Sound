@@ -12,10 +12,10 @@
 		32C246891DDF4C5A003CFA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C246881DDF4C5A003CFA06 /* AppDelegate.swift */; };
 		32C2468B1DDF4C5A003CFA06 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2468A1DDF4C5A003CFA06 /* RecordSoundViewController.swift */; };
 		32C2468E1DDF4C5A003CFA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C2468C1DDF4C5A003CFA06 /* Main.storyboard */; };
-		32C246901DDF4C5A003CFA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C2468F1DDF4C5A003CFA06 /* Assets.xcassets */; };
 		32C246931DDF4C5A003CFA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C246911DDF4C5A003CFA06 /* LaunchScreen.storyboard */; };
 		32C2469E1DDF4C5A003CFA06 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2469D1DDF4C5A003CFA06 /* PitchPerfectTests.swift */; };
 		32C246A91DDF4C5A003CFA06 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C246A81DDF4C5A003CFA06 /* PitchPerfectUITests.swift */; };
+		32CDB8D11ED1BACC00D2B2F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CDB8D01ED1BACC00D2B2F6 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		32C246881DDF4C5A003CFA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C2468A1DDF4C5A003CFA06 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		32C2468D1DDF4C5A003CFA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32C2468F1DDF4C5A003CFA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C246921DDF4C5A003CFA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C246941DDF4C5A003CFA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C246991DDF4C5A003CFA06 /* PitchPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		32C246A41DDF4C5A003CFA06 /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C246A81DDF4C5A003CFA06 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		32C246AA1DDF4C5A003CFA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CDB8D01ED1BACC00D2B2F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 		32C246871DDF4C5A003CFA06 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				32CDB8D01ED1BACC00D2B2F6 /* Images.xcassets */,
 				32B7DFF51DE2D0B700E63A4C /* playsoundsviewcontroller-audio.swift */,
 				32C246881DDF4C5A003CFA06 /* AppDelegate.swift */,
 				32C2468A1DDF4C5A003CFA06 /* RecordSoundViewController.swift */,
 				32C2468C1DDF4C5A003CFA06 /* Main.storyboard */,
-				32C2468F1DDF4C5A003CFA06 /* Assets.xcassets */,
 				32C246911DDF4C5A003CFA06 /* LaunchScreen.storyboard */,
 				32C246941DDF4C5A003CFA06 /* Info.plist */,
 				32B7DFF31DE29C1300E63A4C /* PlaySoundViewController.swift */,
@@ -194,11 +194,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "ximply studio";
 				TargetAttributes = {
 					32C246841DDF4C5A003CFA06 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SDJ7PG22JK;
 						ProvisioningStyle = Automatic;
 					};
 					32C246981DDF4C5A003CFA06 = {
@@ -238,8 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CDB8D11ED1BACC00D2B2F6 /* Images.xcassets in Resources */,
 				32C246931DDF4C5A003CFA06 /* LaunchScreen.storyboard in Resources */,
-				32C246901DDF4C5A003CFA06 /* Assets.xcassets in Resources */,
 				32C2468E1DDF4C5A003CFA06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +342,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -391,6 +393,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -420,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SDJ7PG22JK;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ximplystudio.com.PitchPerfect;
@@ -432,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SDJ7PG22JK;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ximplystudio.com.PitchPerfect;
